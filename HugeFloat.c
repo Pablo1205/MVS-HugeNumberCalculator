@@ -57,3 +57,7 @@ int getHugeFloatLength (const HugeFloat* hugeFloat) {
     }
     return 0;
 }
+
+void printHugeFloat (const HugeFloat* hugeFloat) {
+
+}
