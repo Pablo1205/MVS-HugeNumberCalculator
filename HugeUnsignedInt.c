@@ -42,4 +42,3 @@ HugeUnsignedInt* simplifyHugeUnsignedInt (HugeUnsignedInt* hugeUnsignedInt) {
     }
     return hugeUnsignedInt;
 }
-
