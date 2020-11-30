@@ -81,11 +81,7 @@ void printHugeUnsignedInt (const HugeUnsignedInt* hugeUnsignedInt) {
     free (hugeUnsignedIntString);
 }
 
-void printHugeInt (const HugeInt* hugeInt) {
-    char* hugeIntString = HugeIntToString (hugeInt);
-    printf ("%s\n", hugeIntString);
-    free (hugeIntString);
-}
+
 
 void printHugeFloat (const HugeFloat* hugeFloat) {
     char* hugeFloatString = HugeFloatToString (hugeFloat);
