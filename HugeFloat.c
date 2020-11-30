@@ -59,5 +59,7 @@ int getHugeFloatLength (const HugeFloat* hugeFloat) {
 }
 
 void printHugeFloat (const HugeFloat* hugeFloat) {
-
+    char* hugeFloatString = HugeFloatToString (hugeFloat);
+    printf ("%s\n", hugeFloatString);
+    free (hugeFloatString);
 }
